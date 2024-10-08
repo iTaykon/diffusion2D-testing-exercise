@@ -6,6 +6,16 @@ Please follow the instructions in [python_testing_exercise.md](https://github.co
 
 ### pytest log
 
+======================================= test session starts ========================================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+rootdir: /home/pillerls/Documents/courses/2024_RSE102/diffusion2D-testing-exercise
+collected 5 items                                                                                  
+
+tests/integration/test_diffusion2d.py ..                                                     [ 40%]
+tests/unit/test_diffusion2d_functions.py ...                                                 [100%]
+
+======================================== 5 passed in 0.42s =========================================
+
 ### unittest log
 
 tests/unit/test_diffusion2d_functions.py
