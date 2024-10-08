@@ -3,7 +3,6 @@ Tests for functions in class SolveDiffusion2D
 """
 
 from diffusion2d import SolveDiffusion2D
-import pytest
 import numpy as np
 import unittest
 
@@ -46,7 +45,7 @@ class TestSolveDiffusion2D(unittest.TestCase):
         dy = 0.1
 
         # expected result
-        dt = pytest.approx(0.00125, 0.000001)
+        dt = 0.00125
 
         solver = SolveDiffusion2D()
         solver.dx = dx
